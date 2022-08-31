@@ -103,7 +103,7 @@ const Stock = () => {
                           <FiArrowRightCircle className="text-white m-2 h3" />
                         </span>
                       </Card.Text>
-                      <Card.Text className="span-paragraph">Last updated 20 hours ago</Card.Text>
+                      <Card.Text className="span-paragraph">Last updated 10 hours ago</Card.Text>
                     </Card.ImgOverlay>
                   </Link>
                 </Card>

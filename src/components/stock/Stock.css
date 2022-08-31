@@ -1,6 +1,9 @@
 .companyListing {
+  /* display: grid;
+  grid-template-columns: auto auto; */
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .card-text {
@@ -8,12 +11,13 @@
 }
 
 .alternate {
-  background-color: #2b4472;
+  /* background-color: #2b4472; */
+  background: rgb(58, 58, 95);
 }
 
 .alternate:nth-child(2),
 .alternate:nth-child(7),
-.alternate:nth-child(12),
+.alternate:nth-child(9),
 .alternate:nth-child(13),
 .alternate:nth-child(19),
 .alternate:nth-child(25) {
