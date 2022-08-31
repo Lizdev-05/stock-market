@@ -50,3 +50,15 @@ export const fetchCompanyDetails = (companyId) => async (dispatch) => {
     throw new Error(err);
   }
 };
+
+export const fetchCompanyStatements = (companyId) => async (dispatch) => {
+  try {
+    const response = await fetch(
+      `${API_URL}income-statement/${companyId}?limit=120&apikey=${API_KEY}`,
+    );
+    const result = await response.json();
+    dispatch(getCompanyStatement(result));
+  } catch (err) {
+    throw new Error(err);
+  }
+};
