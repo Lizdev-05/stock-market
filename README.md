@@ -2,7 +2,8 @@
 
 # Stock Metrics App
 
-![Stocks app]()
+![Stocks app](./src/assets/images/Capture.PNG)
+![Stocks app](./src/assets/images/Capture3.PNG)
 
 
 - [Live Demo]()

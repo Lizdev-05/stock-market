@@ -9,7 +9,7 @@ const Header = () => (
     <Navbar expand="lg" variant="dark">
       <Container className="d-flex flex-sm-row justify-content-between">
         <h2>
-          <Navbar.Brand href="#">Stock Market</Navbar.Brand>
+          <Navbar.Brand href="#">Stock Metric</Navbar.Brand>
         </h2>
         <div className="justify-content-end text-white mx-4 flex-wrap">
           <a href="#search" className="text-white mx-3">
