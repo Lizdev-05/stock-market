@@ -1,0 +1,1783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI is rendered properly renders the details page of companies properly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": <BrowserRouter>
+        <Details />
+      </BrowserRouter>,
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": <Details />,
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "basename": undefined,
+          "children": <Details />,
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "navigationType": "POP",
+          "navigator": Object {
+            "action": "POP",
+            "back": [Function],
+            "block": [Function],
+            "createHref": [Function],
+            "forward": [Function],
+            "go": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {},
+          "rendered": Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": <CompanyDetails />,
+              "className": "p-1 container",
+            },
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "nodeType": "component",
+                "props": Object {},
+                "rendered": Object {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": Object {},
+                  "rendered": Object {
+                    "instance": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Row
+                        className="justify-content-center align-content-center mt-5"
+                      >
+                        <SkeletonTheme
+                          baseColor="#00A9D8"
+                          highlightColor="#f8f9f9"
+                        >
+                          <Skeleton
+                            count={3}
+                          />
+                        </SkeletonTheme>
+                      </Row>,
+                      "className": "container",
+                    },
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <SkeletonTheme
+                            baseColor="#00A9D8"
+                            highlightColor="#f8f9f9"
+                          >
+                            <Skeleton
+                              count={3}
+                            />
+                          </SkeletonTheme>,
+                          "className": "justify-content-center align-content-center mt-5 row",
+                        },
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "nodeType": "component",
+                            "props": Object {
+                              "baseColor": "#00A9D8",
+                              "children": <Skeleton
+                                count={3}
+                              />,
+                              "highlightColor": "#f8f9f9",
+                            },
+                            "rendered": Object {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": Object {
+                                "count": 3,
+                              },
+                              "rendered": Object {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "aria-busy": true,
+                                  "aria-live": "polite",
+                                  "children": Array [
+                                    <React.Fragment>
+                                      <span
+                                        className="react-loading-skeleton"
+                                        style={
+                                          Object {
+                                            "--base-color": "#00A9D8",
+                                            "--highlight-color": "#f8f9f9",
+                                          }
+                                        }
+                                      >
+                                        ‌
+                                      </span>
+                                      <br />
+                                    </React.Fragment>,
+                                    <React.Fragment>
+                                      <span
+                                        className="react-loading-skeleton"
+                                        style={
+                                          Object {
+                                            "--base-color": "#00A9D8",
+                                            "--highlight-color": "#f8f9f9",
+                                          }
+                                        }
+                                      >
+                                        ‌
+                                      </span>
+                                      <br />
+                                    </React.Fragment>,
+                                    <React.Fragment>
+                                      <span
+                                        className="react-loading-skeleton"
+                                        style={
+                                          Object {
+                                            "--base-color": "#00A9D8",
+                                            "--highlight-color": "#f8f9f9",
+                                          }
+                                        }
+                                      >
+                                        ‌
+                                      </span>
+                                      <br />
+                                    </React.Fragment>,
+                                  ],
+                                  "className": undefined,
+                                  "data-testid": undefined,
+                                },
+                                "rendered": Array [
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "‌",
+                                      "className": "react-loading-skeleton",
+                                      "style": Object {
+                                        "--base-color": "#00A9D8",
+                                        "--highlight-color": "#f8f9f9",
+                                      },
+                                    },
+                                    "rendered": Array [
+                                      "‌",
+                                    ],
+                                    "type": "span",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {},
+                                    "rendered": Array [],
+                                    "type": "br",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "‌",
+                                      "className": "react-loading-skeleton",
+                                      "style": Object {
+                                        "--base-color": "#00A9D8",
+                                        "--highlight-color": "#f8f9f9",
+                                      },
+                                    },
+                                    "rendered": Array [
+                                      "‌",
+                                    ],
+                                    "type": "span",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {},
+                                    "rendered": Array [],
+                                    "type": "br",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "‌",
+                                      "className": "react-loading-skeleton",
+                                      "style": Object {
+                                        "--base-color": "#00A9D8",
+                                        "--highlight-color": "#f8f9f9",
+                                      },
+                                    },
+                                    "rendered": Array [
+                                      "‌",
+                                    ],
+                                    "type": "span",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {},
+                                    "rendered": Array [],
+                                    "type": "br",
+                                  },
+                                ],
+                                "type": "span",
+                              },
+                              "type": [Function],
+                            },
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
+
+exports[`UI is rendered properly renders the details page per company properly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": <BrowserRouter>
+        <Details />
+      </BrowserRouter>,
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": <Details />,
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "basename": undefined,
+          "children": <Details />,
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "navigationType": "POP",
+          "navigator": Object {
+            "action": "POP",
+            "back": [Function],
+            "block": [Function],
+            "createHref": [Function],
+            "forward": [Function],
+            "go": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {},
+          "rendered": Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": <CompanyDetails />,
+              "className": "p-1 container",
+            },
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "nodeType": "component",
+                "props": Object {},
+                "rendered": Object {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": Object {},
+                  "rendered": Object {
+                    "instance": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Row
+                        className="justify-content-center align-content-center mt-5"
+                      >
+                        <SkeletonTheme
+                          baseColor="#00A9D8"
+                          highlightColor="#f8f9f9"
+                        >
+                          <Skeleton
+                            count={3}
+                          />
+                        </SkeletonTheme>
+                      </Row>,
+                      "className": "container",
+                    },
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <SkeletonTheme
+                            baseColor="#00A9D8"
+                            highlightColor="#f8f9f9"
+                          >
+                            <Skeleton
+                              count={3}
+                            />
+                          </SkeletonTheme>,
+                          "className": "justify-content-center align-content-center mt-5 row",
+                        },
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "nodeType": "component",
+                            "props": Object {
+                              "baseColor": "#00A9D8",
+                              "children": <Skeleton
+                                count={3}
+                              />,
+                              "highlightColor": "#f8f9f9",
+                            },
+                            "rendered": Object {
+                              "instance": null,
+                              "nodeType": "component",
+                              "props": Object {
+                                "count": 3,
+                              },
+                              "rendered": Object {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "aria-busy": true,
+                                  "aria-live": "polite",
+                                  "children": Array [
+                                    <React.Fragment>
+                                      <span
+                                        className="react-loading-skeleton"
+                                        style={
+                                          Object {
+                                            "--base-color": "#00A9D8",
+                                            "--highlight-color": "#f8f9f9",
+                                          }
+                                        }
+                                      >
+                                        ‌
+                                      </span>
+                                      <br />
+                                    </React.Fragment>,
+                                    <React.Fragment>
+                                      <span
+                                        className="react-loading-skeleton"
+                                        style={
+                                          Object {
+                                            "--base-color": "#00A9D8",
+                                            "--highlight-color": "#f8f9f9",
+                                          }
+                                        }
+                                      >
+                                        ‌
+                                      </span>
+                                      <br />
+                                    </React.Fragment>,
+                                    <React.Fragment>
+                                      <span
+                                        className="react-loading-skeleton"
+                                        style={
+                                          Object {
+                                            "--base-color": "#00A9D8",
+                                            "--highlight-color": "#f8f9f9",
+                                          }
+                                        }
+                                      >
+                                        ‌
+                                      </span>
+                                      <br />
+                                    </React.Fragment>,
+                                  ],
+                                  "className": undefined,
+                                  "data-testid": undefined,
+                                },
+                                "rendered": Array [
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "‌",
+                                      "className": "react-loading-skeleton",
+                                      "style": Object {
+                                        "--base-color": "#00A9D8",
+                                        "--highlight-color": "#f8f9f9",
+                                      },
+                                    },
+                                    "rendered": Array [
+                                      "‌",
+                                    ],
+                                    "type": "span",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {},
+                                    "rendered": Array [],
+                                    "type": "br",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "‌",
+                                      "className": "react-loading-skeleton",
+                                      "style": Object {
+                                        "--base-color": "#00A9D8",
+                                        "--highlight-color": "#f8f9f9",
+                                      },
+                                    },
+                                    "rendered": Array [
+                                      "‌",
+                                    ],
+                                    "type": "span",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {},
+                                    "rendered": Array [],
+                                    "type": "br",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "‌",
+                                      "className": "react-loading-skeleton",
+                                      "style": Object {
+                                        "--base-color": "#00A9D8",
+                                        "--highlight-color": "#f8f9f9",
+                                      },
+                                    },
+                                    "rendered": Array [
+                                      "‌",
+                                    ],
+                                    "type": "span",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {},
+                                    "rendered": Array [],
+                                    "type": "br",
+                                  },
+                                ],
+                                "type": "span",
+                              },
+                              "type": [Function],
+                            },
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
+
+exports[`UI is rendered properly renders the home page 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": <BrowserRouter>
+        <Home />
+      </BrowserRouter>,
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": <Home />,
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "basename": undefined,
+          "children": <Home />,
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "navigationType": "POP",
+          "navigator": Object {
+            "action": "POP",
+            "back": [Function],
+            "block": [Function],
+            "createHref": [Function],
+            "forward": [Function],
+            "go": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {},
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Header />,
+              },
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": Object {},
+                  "rendered": Object {
+                    "instance": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Navbar
+                        collapseOnSelect={false}
+                        expand="lg"
+                        variant="dark"
+                      >
+                        <Container
+                          className="d-flex flex-sm-row justify-content-between"
+                          fluid={false}
+                        >
+                          <h2>
+                            <NavbarBrand
+                              href="#"
+                            >
+                              Stock Market
+                            </NavbarBrand>
+                          </h2>
+                          <div
+                            className="justify-content-end text-white mx-4 flex-wrap"
+                          >
+                            <a
+                              className="text-white mx-3"
+                              href="#search"
+                            >
+                              <FaSearch />
+                            </a>
+                            <FaMicrophone
+                              className="mx-3"
+                            />
+                            <IoMdSettings />
+                          </div>
+                        </Container>
+                      </Navbar>,
+                      "className": "container",
+                    },
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <Container
+                            className="d-flex flex-sm-row justify-content-between"
+                            fluid={false}
+                          >
+                            <h2>
+                              <NavbarBrand
+                                href="#"
+                              >
+                                Stock Market
+                              </NavbarBrand>
+                            </h2>
+                            <div
+                              className="justify-content-end text-white mx-4 flex-wrap"
+                            >
+                              <a
+                                className="text-white mx-3"
+                                href="#search"
+                              >
+                                <FaSearch />
+                              </a>
+                              <FaMicrophone
+                                className="mx-3"
+                              />
+                              <IoMdSettings />
+                            </div>
+                          </Container>,
+                          "className": "navbar navbar-expand-lg navbar-dark",
+                        },
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <h2>
+                                  <NavbarBrand
+                                    href="#"
+                                  >
+                                    Stock Market
+                                  </NavbarBrand>
+                                </h2>,
+                                <div
+                                  className="justify-content-end text-white mx-4 flex-wrap"
+                                >
+                                  <a
+                                    className="text-white mx-3"
+                                    href="#search"
+                                  >
+                                    <FaSearch />
+                                  </a>
+                                  <FaMicrophone
+                                    className="mx-3"
+                                  />
+                                  <IoMdSettings />
+                                </div>,
+                              ],
+                              "className": "d-flex flex-sm-row justify-content-between container",
+                            },
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": <NavbarBrand
+                                    href="#"
+                                  >
+                                    Stock Market
+                                  </NavbarBrand>,
+                                },
+                                "rendered": Array [
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": "Stock Market",
+                                      "className": "navbar-brand",
+                                      "href": "#",
+                                    },
+                                    "rendered": Array [
+                                      "Stock Market",
+                                    ],
+                                    "type": "a",
+                                  },
+                                ],
+                                "type": "h2",
+                              },
+                              Object {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": Array [
+                                    <a
+                                      className="text-white mx-3"
+                                      href="#search"
+                                    >
+                                      <FaSearch />
+                                    </a>,
+                                    <FaMicrophone
+                                      className="mx-3"
+                                    />,
+                                    <IoMdSettings />,
+                                  ],
+                                  "className": "justify-content-end text-white mx-4 flex-wrap",
+                                },
+                                "rendered": Array [
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": <FaSearch />,
+                                      "className": "text-white mx-3",
+                                      "href": "#search",
+                                    },
+                                    "rendered": Array [
+                                      Object {
+                                        "instance": null,
+                                        "nodeType": "component",
+                                        "props": Object {},
+                                        "rendered": Object {
+                                          "instance": null,
+                                          "nodeType": "component",
+                                          "props": Object {
+                                            "attr": Object {
+                                              "viewBox": "0 0 512 512",
+                                            },
+                                            "children": Array [
+                                              <path
+                                                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                                              />,
+                                            ],
+                                          },
+                                          "rendered": Object {
+                                            "instance": null,
+                                            "nodeType": "host",
+                                            "props": Object {
+                                              "children": Array [
+                                                undefined,
+                                                Array [
+                                                  <path
+                                                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                                                  />,
+                                                ],
+                                              ],
+                                              "className": undefined,
+                                              "fill": "currentColor",
+                                              "height": "1em",
+                                              "stroke": "currentColor",
+                                              "strokeWidth": "0",
+                                              "style": Object {
+                                                "color": undefined,
+                                              },
+                                              "viewBox": "0 0 512 512",
+                                              "width": "1em",
+                                              "xmlns": "http://www.w3.org/2000/svg",
+                                            },
+                                            "rendered": Array [
+                                              Object {
+                                                "instance": null,
+                                                "nodeType": "host",
+                                                "props": Object {
+                                                  "children": undefined,
+                                                  "d": "M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z",
+                                                },
+                                                "rendered": Array [],
+                                                "type": "path",
+                                              },
+                                            ],
+                                            "type": "svg",
+                                          },
+                                          "type": [Function],
+                                        },
+                                        "type": [Function],
+                                      },
+                                    ],
+                                    "type": "a",
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "component",
+                                    "props": Object {
+                                      "className": "mx-3",
+                                    },
+                                    "rendered": Object {
+                                      "instance": null,
+                                      "nodeType": "component",
+                                      "props": Object {
+                                        "attr": Object {
+                                          "viewBox": "0 0 352 512",
+                                        },
+                                        "children": Array [
+                                          <path
+                                            d="M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z"
+                                          />,
+                                        ],
+                                        "className": "mx-3",
+                                      },
+                                      "rendered": Object {
+                                        "instance": null,
+                                        "nodeType": "host",
+                                        "props": Object {
+                                          "children": Array [
+                                            undefined,
+                                            Array [
+                                              <path
+                                                d="M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z"
+                                              />,
+                                            ],
+                                          ],
+                                          "className": "mx-3",
+                                          "fill": "currentColor",
+                                          "height": "1em",
+                                          "stroke": "currentColor",
+                                          "strokeWidth": "0",
+                                          "style": Object {
+                                            "color": undefined,
+                                          },
+                                          "viewBox": "0 0 352 512",
+                                          "width": "1em",
+                                          "xmlns": "http://www.w3.org/2000/svg",
+                                        },
+                                        "rendered": Array [
+                                          Object {
+                                            "instance": null,
+                                            "nodeType": "host",
+                                            "props": Object {
+                                              "children": undefined,
+                                              "d": "M176 352c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96zm160-160h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16z",
+                                            },
+                                            "rendered": Array [],
+                                            "type": "path",
+                                          },
+                                        ],
+                                        "type": "svg",
+                                      },
+                                      "type": [Function],
+                                    },
+                                    "type": [Function],
+                                  },
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "component",
+                                    "props": Object {},
+                                    "rendered": Object {
+                                      "instance": null,
+                                      "nodeType": "component",
+                                      "props": Object {
+                                        "attr": Object {
+                                          "viewBox": "0 0 512 512",
+                                        },
+                                        "children": Array [
+                                          <path
+                                            d="M413.967 276.8c1.06-6.235 1.06-13.518 1.06-20.8s-1.06-13.518-1.06-20.8l44.667-34.318c4.26-3.118 5.319-8.317 2.13-13.518L418.215 115.6c-2.129-4.164-8.507-6.235-12.767-4.164l-53.186 20.801c-10.638-8.318-23.394-15.601-36.16-20.801l-7.448-55.117c-1.06-4.154-5.319-8.318-10.638-8.318h-85.098c-5.318 0-9.577 4.164-10.637 8.318l-8.508 55.117c-12.767 5.2-24.464 12.482-36.171 20.801l-53.186-20.801c-5.319-2.071-10.638 0-12.767 4.164L49.1 187.365c-2.119 4.153-1.061 10.399 2.129 13.518L96.97 235.2c0 7.282-1.06 13.518-1.06 20.8s1.06 13.518 1.06 20.8l-44.668 34.318c-4.26 3.118-5.318 8.317-2.13 13.518L92.721 396.4c2.13 4.164 8.508 6.235 12.767 4.164l53.187-20.801c10.637 8.318 23.394 15.601 36.16 20.801l8.508 55.117c1.069 5.2 5.318 8.318 10.637 8.318h85.098c5.319 0 9.578-4.164 10.638-8.318l8.518-55.117c12.757-5.2 24.464-12.482 36.16-20.801l53.187 20.801c5.318 2.071 10.637 0 12.767-4.164l42.549-71.765c2.129-4.153 1.06-10.399-2.13-13.518l-46.8-34.317zm-158.499 52c-41.489 0-74.46-32.235-74.46-72.8s32.971-72.8 74.46-72.8 74.461 32.235 74.461 72.8-32.972 72.8-74.461 72.8z"
+                                          />,
+                                        ],
+                                      },
+                                      "rendered": Object {
+                                        "instance": null,
+                                        "nodeType": "host",
+                                        "props": Object {
+                                          "children": Array [
+                                            undefined,
+                                            Array [
+                                              <path
+                                                d="M413.967 276.8c1.06-6.235 1.06-13.518 1.06-20.8s-1.06-13.518-1.06-20.8l44.667-34.318c4.26-3.118 5.319-8.317 2.13-13.518L418.215 115.6c-2.129-4.164-8.507-6.235-12.767-4.164l-53.186 20.801c-10.638-8.318-23.394-15.601-36.16-20.801l-7.448-55.117c-1.06-4.154-5.319-8.318-10.638-8.318h-85.098c-5.318 0-9.577 4.164-10.637 8.318l-8.508 55.117c-12.767 5.2-24.464 12.482-36.171 20.801l-53.186-20.801c-5.319-2.071-10.638 0-12.767 4.164L49.1 187.365c-2.119 4.153-1.061 10.399 2.129 13.518L96.97 235.2c0 7.282-1.06 13.518-1.06 20.8s1.06 13.518 1.06 20.8l-44.668 34.318c-4.26 3.118-5.318 8.317-2.13 13.518L92.721 396.4c2.13 4.164 8.508 6.235 12.767 4.164l53.187-20.801c10.637 8.318 23.394 15.601 36.16 20.801l8.508 55.117c1.069 5.2 5.318 8.318 10.637 8.318h85.098c5.319 0 9.578-4.164 10.638-8.318l8.518-55.117c12.757-5.2 24.464-12.482 36.16-20.801l53.187 20.801c5.318 2.071 10.637 0 12.767-4.164l42.549-71.765c2.129-4.153 1.06-10.399-2.13-13.518l-46.8-34.317zm-158.499 52c-41.489 0-74.46-32.235-74.46-72.8s32.971-72.8 74.46-72.8 74.461 32.235 74.461 72.8-32.972 72.8-74.461 72.8z"
+                                              />,
+                                            ],
+                                          ],
+                                          "className": undefined,
+                                          "fill": "currentColor",
+                                          "height": "1em",
+                                          "stroke": "currentColor",
+                                          "strokeWidth": "0",
+                                          "style": Object {
+                                            "color": undefined,
+                                          },
+                                          "viewBox": "0 0 512 512",
+                                          "width": "1em",
+                                          "xmlns": "http://www.w3.org/2000/svg",
+                                        },
+                                        "rendered": Array [
+                                          Object {
+                                            "instance": null,
+                                            "nodeType": "host",
+                                            "props": Object {
+                                              "children": undefined,
+                                              "d": "M413.967 276.8c1.06-6.235 1.06-13.518 1.06-20.8s-1.06-13.518-1.06-20.8l44.667-34.318c4.26-3.118 5.319-8.317 2.13-13.518L418.215 115.6c-2.129-4.164-8.507-6.235-12.767-4.164l-53.186 20.801c-10.638-8.318-23.394-15.601-36.16-20.801l-7.448-55.117c-1.06-4.154-5.319-8.318-10.638-8.318h-85.098c-5.318 0-9.577 4.164-10.637 8.318l-8.508 55.117c-12.767 5.2-24.464 12.482-36.171 20.801l-53.186-20.801c-5.319-2.071-10.638 0-12.767 4.164L49.1 187.365c-2.119 4.153-1.061 10.399 2.129 13.518L96.97 235.2c0 7.282-1.06 13.518-1.06 20.8s1.06 13.518 1.06 20.8l-44.668 34.318c-4.26 3.118-5.318 8.317-2.13 13.518L92.721 396.4c2.13 4.164 8.508 6.235 12.767 4.164l53.187-20.801c10.637 8.318 23.394 15.601 36.16 20.801l8.508 55.117c1.069 5.2 5.318 8.318 10.637 8.318h85.098c5.319 0 9.578-4.164 10.638-8.318l8.518-55.117c12.757-5.2 24.464-12.482 36.16-20.801l53.187 20.801c5.318 2.071 10.637 0 12.767-4.164l42.549-71.765c2.129-4.153 1.06-10.399-2.13-13.518l-46.8-34.317zm-158.499 52c-41.489 0-74.46-32.235-74.46-72.8s32.971-72.8 74.46-72.8 74.461 32.235 74.461 72.8-32.972 72.8-74.461 72.8z",
+                                            },
+                                            "rendered": Array [],
+                                            "type": "path",
+                                          },
+                                        ],
+                                        "type": "svg",
+                                      },
+                                      "type": [Function],
+                                    },
+                                    "type": [Function],
+                                  },
+                                ],
+                                "type": "div",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                        ],
+                        "type": "nav",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Container
+                  fluid={false}
+                >
+                  <Stock />
+                </Container>,
+              },
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Stock />,
+                    "className": "container",
+                  },
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": Object {},
+                      "rendered": Object {
+                        "instance": null,
+                        "nodeType": "component",
+                        "props": Object {},
+                        "rendered": Object {
+                          "instance": null,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <Row
+                              className="justify-content-center align-content-center mt-5"
+                            >
+                              <SkeletonTheme
+                                baseColor="#00A9D8"
+                                highlightColor="#f8f9f9"
+                              >
+                                <Skeleton
+                                  count={3}
+                                />
+                              </SkeletonTheme>
+                            </Row>,
+                            "className": "container",
+                          },
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": <SkeletonTheme
+                                  baseColor="#00A9D8"
+                                  highlightColor="#f8f9f9"
+                                >
+                                  <Skeleton
+                                    count={3}
+                                  />
+                                </SkeletonTheme>,
+                                "className": "justify-content-center align-content-center mt-5 row",
+                              },
+                              "rendered": Array [
+                                Object {
+                                  "instance": null,
+                                  "nodeType": "component",
+                                  "props": Object {
+                                    "baseColor": "#00A9D8",
+                                    "children": <Skeleton
+                                      count={3}
+                                    />,
+                                    "highlightColor": "#f8f9f9",
+                                  },
+                                  "rendered": Object {
+                                    "instance": null,
+                                    "nodeType": "component",
+                                    "props": Object {
+                                      "count": 3,
+                                    },
+                                    "rendered": Object {
+                                      "instance": null,
+                                      "nodeType": "host",
+                                      "props": Object {
+                                        "aria-busy": true,
+                                        "aria-live": "polite",
+                                        "children": Array [
+                                          <React.Fragment>
+                                            <span
+                                              className="react-loading-skeleton"
+                                              style={
+                                                Object {
+                                                  "--base-color": "#00A9D8",
+                                                  "--highlight-color": "#f8f9f9",
+                                                }
+                                              }
+                                            >
+                                              ‌
+                                            </span>
+                                            <br />
+                                          </React.Fragment>,
+                                          <React.Fragment>
+                                            <span
+                                              className="react-loading-skeleton"
+                                              style={
+                                                Object {
+                                                  "--base-color": "#00A9D8",
+                                                  "--highlight-color": "#f8f9f9",
+                                                }
+                                              }
+                                            >
+                                              ‌
+                                            </span>
+                                            <br />
+                                          </React.Fragment>,
+                                          <React.Fragment>
+                                            <span
+                                              className="react-loading-skeleton"
+                                              style={
+                                                Object {
+                                                  "--base-color": "#00A9D8",
+                                                  "--highlight-color": "#f8f9f9",
+                                                }
+                                              }
+                                            >
+                                              ‌
+                                            </span>
+                                            <br />
+                                          </React.Fragment>,
+                                        ],
+                                        "className": undefined,
+                                        "data-testid": undefined,
+                                      },
+                                      "rendered": Array [
+                                        Object {
+                                          "instance": null,
+                                          "nodeType": "host",
+                                          "props": Object {
+                                            "children": "‌",
+                                            "className": "react-loading-skeleton",
+                                            "style": Object {
+                                              "--base-color": "#00A9D8",
+                                              "--highlight-color": "#f8f9f9",
+                                            },
+                                          },
+                                          "rendered": Array [
+                                            "‌",
+                                          ],
+                                          "type": "span",
+                                        },
+                                        Object {
+                                          "instance": null,
+                                          "nodeType": "host",
+                                          "props": Object {},
+                                          "rendered": Array [],
+                                          "type": "br",
+                                        },
+                                        Object {
+                                          "instance": null,
+                                          "nodeType": "host",
+                                          "props": Object {
+                                            "children": "‌",
+                                            "className": "react-loading-skeleton",
+                                            "style": Object {
+                                              "--base-color": "#00A9D8",
+                                              "--highlight-color": "#f8f9f9",
+                                            },
+                                          },
+                                          "rendered": Array [
+                                            "‌",
+                                          ],
+                                          "type": "span",
+                                        },
+                                        Object {
+                                          "instance": null,
+                                          "nodeType": "host",
+                                          "props": Object {},
+                                          "rendered": Array [],
+                                          "type": "br",
+                                        },
+                                        Object {
+                                          "instance": null,
+                                          "nodeType": "host",
+                                          "props": Object {
+                                            "children": "‌",
+                                            "className": "react-loading-skeleton",
+                                            "style": Object {
+                                              "--base-color": "#00A9D8",
+                                              "--highlight-color": "#f8f9f9",
+                                            },
+                                          },
+                                          "rendered": Array [
+                                            "‌",
+                                          ],
+                                          "type": "span",
+                                        },
+                                        Object {
+                                          "instance": null,
+                                          "nodeType": "host",
+                                          "props": Object {},
+                                          "rendered": Array [],
+                                          "type": "br",
+                                        },
+                                      ],
+                                      "type": "span",
+                                    },
+                                    "type": [Function],
+                                  },
+                                  "type": [Function],
+                                },
+                              ],
+                              "type": "div",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "main",
+            },
+            Object {
+              "instance": null,
+              "nodeType": "component",
+              "props": Object {},
+              "rendered": Object {
+                "instance": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Container
+                    className=" footer d-flex align-items-center justify-content-between text-white position-relative b-0 mt-4"
+                    fluid={false}
+                  >
+                    <div
+                      className="text-center"
+                    >
+                      <h5>
+                        Stock Market trends
+                      </h5>
+                      <span>
+                        All rights reserved 2022
+                      </span>
+                    </div>
+                    <div>
+                      <ul
+                        className="d-flex"
+                      >
+                        <li
+                          className="mx-2"
+                        >
+                          <a
+                            className="text-white"
+                            href="https://github.com/Lizdev-05/"
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            <FaGithub />
+                          </a>
+                        </li>
+                        <li
+                          className="mx-2"
+                        >
+                          <a
+                            className="text-white"
+                            href="https://linkedin.com/in/oyinlade-ojesanmi/"
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            <FaLinkedin />
+                          </a>
+                        </li>
+                        <li
+                          className="mx-2"
+                        >
+                          <a
+                            className="text-white"
+                            href="https://twitter.com/ojesanmi_oyin"
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            <FaTwitter />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </Container>,
+                },
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="text-center"
+                        >
+                          <h5>
+                            Stock Market trends
+                          </h5>
+                          <span>
+                            All rights reserved 2022
+                          </span>
+                        </div>,
+                        <div>
+                          <ul
+                            className="d-flex"
+                          >
+                            <li
+                              className="mx-2"
+                            >
+                              <a
+                                className="text-white"
+                                href="https://github.com/Lizdev-05/"
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                <FaGithub />
+                              </a>
+                            </li>
+                            <li
+                              className="mx-2"
+                            >
+                              <a
+                                className="text-white"
+                                href="https://linkedin.com/in/oyinlade-ojesanmi/"
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                <FaLinkedin />
+                              </a>
+                            </li>
+                            <li
+                              className="mx-2"
+                            >
+                              <a
+                                className="text-white"
+                                href="https://twitter.com/ojesanmi_oyin"
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                <FaTwitter />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>,
+                      ],
+                      "className": " footer d-flex align-items-center justify-content-between text-white position-relative b-0 mt-4 container",
+                    },
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <h5>
+                              Stock Market trends
+                            </h5>,
+                            <span>
+                              All rights reserved 2022
+                            </span>,
+                          ],
+                          "className": "text-center",
+                        },
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Stock Market trends",
+                            },
+                            "rendered": Array [
+                              "Stock Market trends",
+                            ],
+                            "type": "h5",
+                          },
+                          Object {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "All rights reserved 2022",
+                            },
+                            "rendered": Array [
+                              "All rights reserved 2022",
+                            ],
+                            "type": "span",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <ul
+                            className="d-flex"
+                          >
+                            <li
+                              className="mx-2"
+                            >
+                              <a
+                                className="text-white"
+                                href="https://github.com/Lizdev-05/"
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                <FaGithub />
+                              </a>
+                            </li>
+                            <li
+                              className="mx-2"
+                            >
+                              <a
+                                className="text-white"
+                                href="https://linkedin.com/in/oyinlade-ojesanmi/"
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                <FaLinkedin />
+                              </a>
+                            </li>
+                            <li
+                              className="mx-2"
+                            >
+                              <a
+                                className="text-white"
+                                href="https://twitter.com/ojesanmi_oyin"
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                <FaTwitter />
+                              </a>
+                            </li>
+                          </ul>,
+                        },
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <li
+                                  className="mx-2"
+                                >
+                                  <a
+                                    className="text-white"
+                                    href="https://github.com/Lizdev-05/"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                  >
+                                    <FaGithub />
+                                  </a>
+                                </li>,
+                                <li
+                                  className="mx-2"
+                                >
+                                  <a
+                                    className="text-white"
+                                    href="https://linkedin.com/in/oyinlade-ojesanmi/"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                  >
+                                    <FaLinkedin />
+                                  </a>
+                                </li>,
+                                <li
+                                  className="mx-2"
+                                >
+                                  <a
+                                    className="text-white"
+                                    href="https://twitter.com/ojesanmi_oyin"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                  >
+                                    <FaTwitter />
+                                  </a>
+                                </li>,
+                              ],
+                              "className": "d-flex",
+                            },
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": <a
+                                    className="text-white"
+                                    href="https://github.com/Lizdev-05/"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                  >
+                                    <FaGithub />
+                                  </a>,
+                                  "className": "mx-2",
+                                },
+                                "rendered": Array [
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": <FaGithub />,
+                                      "className": "text-white",
+                                      "href": "https://github.com/Lizdev-05/",
+                                      "rel": "noreferrer",
+                                      "target": "_blank",
+                                    },
+                                    "rendered": Array [
+                                      Object {
+                                        "instance": null,
+                                        "nodeType": "component",
+                                        "props": Object {},
+                                        "rendered": Object {
+                                          "instance": null,
+                                          "nodeType": "component",
+                                          "props": Object {
+                                            "attr": Object {
+                                              "viewBox": "0 0 496 512",
+                                            },
+                                            "children": Array [
+                                              <path
+                                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                                              />,
+                                            ],
+                                          },
+                                          "rendered": Object {
+                                            "instance": null,
+                                            "nodeType": "host",
+                                            "props": Object {
+                                              "children": Array [
+                                                undefined,
+                                                Array [
+                                                  <path
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                                                  />,
+                                                ],
+                                              ],
+                                              "className": undefined,
+                                              "fill": "currentColor",
+                                              "height": "1em",
+                                              "stroke": "currentColor",
+                                              "strokeWidth": "0",
+                                              "style": Object {
+                                                "color": undefined,
+                                              },
+                                              "viewBox": "0 0 496 512",
+                                              "width": "1em",
+                                              "xmlns": "http://www.w3.org/2000/svg",
+                                            },
+                                            "rendered": Array [
+                                              Object {
+                                                "instance": null,
+                                                "nodeType": "host",
+                                                "props": Object {
+                                                  "children": undefined,
+                                                  "d": "M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z",
+                                                },
+                                                "rendered": Array [],
+                                                "type": "path",
+                                              },
+                                            ],
+                                            "type": "svg",
+                                          },
+                                          "type": [Function],
+                                        },
+                                        "type": [Function],
+                                      },
+                                    ],
+                                    "type": "a",
+                                  },
+                                ],
+                                "type": "li",
+                              },
+                              Object {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": <a
+                                    className="text-white"
+                                    href="https://linkedin.com/in/oyinlade-ojesanmi/"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                  >
+                                    <FaLinkedin />
+                                  </a>,
+                                  "className": "mx-2",
+                                },
+                                "rendered": Array [
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": <FaLinkedin />,
+                                      "className": "text-white",
+                                      "href": "https://linkedin.com/in/oyinlade-ojesanmi/",
+                                      "rel": "noreferrer",
+                                      "target": "_blank",
+                                    },
+                                    "rendered": Array [
+                                      Object {
+                                        "instance": null,
+                                        "nodeType": "component",
+                                        "props": Object {},
+                                        "rendered": Object {
+                                          "instance": null,
+                                          "nodeType": "component",
+                                          "props": Object {
+                                            "attr": Object {
+                                              "viewBox": "0 0 448 512",
+                                            },
+                                            "children": Array [
+                                              <path
+                                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                              />,
+                                            ],
+                                          },
+                                          "rendered": Object {
+                                            "instance": null,
+                                            "nodeType": "host",
+                                            "props": Object {
+                                              "children": Array [
+                                                undefined,
+                                                Array [
+                                                  <path
+                                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                                  />,
+                                                ],
+                                              ],
+                                              "className": undefined,
+                                              "fill": "currentColor",
+                                              "height": "1em",
+                                              "stroke": "currentColor",
+                                              "strokeWidth": "0",
+                                              "style": Object {
+                                                "color": undefined,
+                                              },
+                                              "viewBox": "0 0 448 512",
+                                              "width": "1em",
+                                              "xmlns": "http://www.w3.org/2000/svg",
+                                            },
+                                            "rendered": Array [
+                                              Object {
+                                                "instance": null,
+                                                "nodeType": "host",
+                                                "props": Object {
+                                                  "children": undefined,
+                                                  "d": "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z",
+                                                },
+                                                "rendered": Array [],
+                                                "type": "path",
+                                              },
+                                            ],
+                                            "type": "svg",
+                                          },
+                                          "type": [Function],
+                                        },
+                                        "type": [Function],
+                                      },
+                                    ],
+                                    "type": "a",
+                                  },
+                                ],
+                                "type": "li",
+                              },
+                              Object {
+                                "instance": null,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": <a
+                                    className="text-white"
+                                    href="https://twitter.com/ojesanmi_oyin"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                  >
+                                    <FaTwitter />
+                                  </a>,
+                                  "className": "mx-2",
+                                },
+                                "rendered": Array [
+                                  Object {
+                                    "instance": null,
+                                    "nodeType": "host",
+                                    "props": Object {
+                                      "children": <FaTwitter />,
+                                      "className": "text-white",
+                                      "href": "https://twitter.com/ojesanmi_oyin",
+                                      "rel": "noreferrer",
+                                      "target": "_blank",
+                                    },
+                                    "rendered": Array [
+                                      Object {
+                                        "instance": null,
+                                        "nodeType": "component",
+                                        "props": Object {},
+                                        "rendered": Object {
+                                          "instance": null,
+                                          "nodeType": "component",
+                                          "props": Object {
+                                            "attr": Object {
+                                              "viewBox": "0 0 512 512",
+                                            },
+                                            "children": Array [
+                                              <path
+                                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                                              />,
+                                            ],
+                                          },
+                                          "rendered": Object {
+                                            "instance": null,
+                                            "nodeType": "host",
+                                            "props": Object {
+                                              "children": Array [
+                                                undefined,
+                                                Array [
+                                                  <path
+                                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                                                  />,
+                                                ],
+                                              ],
+                                              "className": undefined,
+                                              "fill": "currentColor",
+                                              "height": "1em",
+                                              "stroke": "currentColor",
+                                              "strokeWidth": "0",
+                                              "style": Object {
+                                                "color": undefined,
+                                              },
+                                              "viewBox": "0 0 512 512",
+                                              "width": "1em",
+                                              "xmlns": "http://www.w3.org/2000/svg",
+                                            },
+                                            "rendered": Array [
+                                              Object {
+                                                "instance": null,
+                                                "nodeType": "host",
+                                                "props": Object {
+                                                  "children": undefined,
+                                                  "d": "M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z",
+                                                },
+                                                "rendered": Array [],
+                                                "type": "path",
+                                              },
+                                            ],
+                                            "type": "svg",
+                                          },
+                                          "type": [Function],
+                                        },
+                                        "type": [Function],
+                                      },
+                                    ],
+                                    "type": "a",
+                                  },
+                                ],
+                                "type": "li",
+                              },
+                            ],
+                            "type": "ul",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "footer",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
