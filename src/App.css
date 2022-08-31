@@ -1,39 +1,50 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --color-primary-light: #2b4064;
+  --color-primary-dark: #1f304e;
+  --color-white: #fff;
+  --color-black: rgb(0, 0, 0);
+  --default-fs: 1.6rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  /* Defines what 1rem is */
+  font-size: 62.5%;
+  position: relative;
+  min-height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  background-color: var(--color-primary-dark);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: var(--default-fs);
+  color: var(--color-white);
+  min-height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
   }
 }
