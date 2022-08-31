@@ -1,6 +1,4 @@
-.companyListing {
-  /* display: grid;
-  grid-template-columns: auto auto; */
+.display {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
@@ -11,7 +9,6 @@
 }
 
 .alternate {
-  /* background-color: #2b4472; */
   background: rgb(58, 58, 95);
 }
 

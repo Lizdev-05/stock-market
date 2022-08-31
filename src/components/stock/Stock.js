@@ -27,7 +27,7 @@ const Stock = () => {
     <>
       <Search />
       <Container className="p-0">
-        <section className="companyListing">
+        <section className="display">
           {filteredState.length === 0
             ? stockState.map(
               ({
@@ -63,7 +63,7 @@ const Stock = () => {
                           </span>
                         </Card.Text>
                       </Card.Text>
-                      <Card.Text>Last updated 20 hours ago</Card.Text>
+                      <Card.Text>Last updated 10 hours ago</Card.Text>
                     </Card.ImgOverlay>
                   </Link>
                 </Card>
