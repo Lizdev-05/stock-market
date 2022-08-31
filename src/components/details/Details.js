@@ -4,8 +4,8 @@ import { Container, Navbar, Table } from 'react-bootstrap';
 import { useSelector, useDispatch } from 'react-redux';
 import { BsArrowLeftSquareFill } from 'react-icons/bs';
 import {
-  getCompanyDetails,
-  getCompanyStatement,
+  fetchCompanyDetails,
+  fetchCompanyStatements,
   resetStock,
 } from '../../Redux/Stock';
 import './Detail.css';
@@ -13,14 +13,14 @@ import SkeletonLoader from '../loader/Loader';
 
 const CompanyDetails = () => {
   const dispatch = useDispatch();
-  const detailsState = useSelector((state) => state.stockReducer.details);
+  const detailsState = useSelector((state) => state.stockDataReducer.details);
   const statementState = useSelector(
-    (state) => state.stockReducer.statement,
+    (state) => state.stockDataReducer.statement,
   );
   const { companyId } = useParams();
   useEffect(() => {
-    dispatch(getCompanyDetails(companyId));
-    dispatch(getCompanyStatement(companyId));
+    dispatch(fetchCompanyDetails(companyId));
+    dispatch(fetchCompanyStatements(companyId));
   }, [companyId]);
 
   const clickHandler = () => {
