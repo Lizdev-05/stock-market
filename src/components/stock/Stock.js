@@ -5,15 +5,15 @@ import { Container, Card } from 'react-bootstrap';
 import { FaLongArrowAltDown, FaLongArrowAltUp } from 'react-icons/fa';
 import { FiArrowRightCircle } from 'react-icons/fi';
 import { fetchStockData } from '../../Redux/Stock';
-import SkeletonLoader from '../loader/SkeletonLoader';
+import SkeletonLoader from '../loader/Loader';
 import Search from '../search/Search';
 import './Stock.css';
-import Chart from '../../images/chart-graph.png';
+import chart from '../../assets/images/chart.png';
 
 const Stock = () => {
-  const stockState = useSelector((state) => state.stocksDataReducer.stocksData);
+  const stockState = useSelector((state) => state.stockDataReducer.stockData);
   const filteredState = useSelector(
-    (state) => state.stocksDataReducer.filtered,
+    (state) => state.stockDataReducer.filtered,
   );
   const dispatch = useDispatch();
   useEffect(() => {
@@ -35,7 +35,7 @@ const Stock = () => {
               }) => (
                 <Card className="text-white alternate card" key={id}>
                   <Link to={`/details/${id}`} key={`${id}link`} className="text-white">
-                    <Card.Img src={Chart} alt="Card image" />
+                    <Card.Img src={chart} alt="Card image" />
                     <Card.ImgOverlay className="text-center align-center d-flex flex-column  justify-content-center">
                       <Card.Title>{companyName}</Card.Title>
                       <Card.Text>
@@ -75,7 +75,7 @@ const Stock = () => {
               }) => (
                 <Card className=" p-1 text-white alternate card" key={id}>
                   <Link to={`/details/${id}`} key={id} className="text-white">
-                    <Card.Img src={Chart} alt="Card image" />
+                    <Card.Img src={chart} alt="Card image" />
                     <Card.ImgOverlay className=" align-center d-flex flex-column  justify-content-start">
                       <Card.Title className="h2 fs-2 p-1 fw-bold">{companyName}</Card.Title>
                       <Card.Text>
