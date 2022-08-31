@@ -63,7 +63,7 @@ export const fetchCompanyStatements = (companyId) => async (dispatch) => {
   }
 };
 
-export const getStockData = () => async (dispatch) => {
+export const fetchStockData = () => async (dispatch) => {
   try {
     const response = await fetch(
       `${API_URL}stock_market/actives?limit=20&apikey=${API_KEY}`,
@@ -81,8 +81,41 @@ export const getStockData = () => async (dispatch) => {
       }),
     );
 
-    dispatch(loadStockData(data));
+    dispatch(getStockData(data));
   } catch (err) {
     throw new Error(err);
   }
 };
+
+// REDUCER
+
+const stockDataReducer = (state = initialState, { type, payload }) => {
+  switch (type) {
+    case GET_STOCK_DATA:
+      return { ...state, stocksData: [...payload] };
+
+    case GET_COMPANY_DETAILS:
+      return { ...state, details: [...payload] };
+
+    case GET_COMPANY_STATEMENTS:
+      return { ...state, statement: [...payload] };
+    case RESET_STOCK:
+      return { ...state, statement: [], details: [] };
+    case FILTER_COMPANY:
+      if (payload === '') {
+        return { ...state, filtered: [...state.stocksData] };
+      }
+      return {
+        ...state,
+        filtered: [
+          ...state.stocksData.filter(({ companyName }) => companyName
+            .toLowerCase().includes(payload.toLowerCase())),
+        ],
+      };
+
+    default:
+      return state;
+  }
+};
+
+export default stockDataReducer;
