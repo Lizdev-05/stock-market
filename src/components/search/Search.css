@@ -1,0 +1,12 @@
+input {
+  height: 30px;
+  width: inherit;
+  border: 1px solid #3264af;
+  margin-top: 1rem;
+  border-radius: 4px;
+  padding: 0 12px;
+}
+
+::placeholder {
+  padding-left: 2rem;
+}

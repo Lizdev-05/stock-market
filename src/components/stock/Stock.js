@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Container, Card } from 'react-bootstrap';
 import { FaLongArrowAltDown, FaLongArrowAltUp } from 'react-icons/fa';
 import { FiArrowRightCircle } from 'react-icons/fi';
-import { fetchStockData } from '../../redux/stocks/stock';
+import { fetchStockData } from '../../Redux/Stock';
 import SkeletonLoader from '../loader/SkeletonLoader';
 import Search from '../search/Search';
 import './Stock.css';
