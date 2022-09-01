@@ -6,8 +6,8 @@
 ![Stocks app](./src/assets/images/Capture3.PNG)
 
 
-- [Live Demo]()
-- [Presentation Video]()
+- [Live Demo](https://lizdev-stock-metric.netlify.app/)
+- [Presentation Video](https://www.loom.com/share/6a04348b2dea48bd82a337493debb165)
 
 >  Stock metrics is a web(mobile-focused) app for checking the companies listed on the stock exchange and see their live metrics. Its data is consumed from the [Financial modelling API](https://site.financialmodelingprep.com/developer/docs/). It is built using React, Redux, and React-bootsrap, Skeleton Loader, Recharts.
 
