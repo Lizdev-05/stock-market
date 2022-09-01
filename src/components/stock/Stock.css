@@ -1,0 +1,48 @@
+.display {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.card-text {
+  font-size: var(--default-fs);
+}
+
+.alternate {
+  background: rgb(58, 58, 95);
+}
+
+.alternate:nth-child(2),
+.alternate:nth-child(7),
+.alternate:nth-child(9),
+.alternate:nth-child(13),
+.alternate:nth-child(19),
+.alternate:nth-child(25) {
+  background-color: #162c55;
+}
+
+.alternate:nth-child(3n+0) {
+  background-color: #162c55;
+}
+
+.card-img {
+  opacity: 0.5;
+}
+
+.right-side {
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 475px) {
+  .card-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .span-paragraph,
+  .span-paragraph > span {
+    display: none;
+  }
+}
