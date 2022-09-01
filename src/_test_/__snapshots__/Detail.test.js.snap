@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders properly the company details page renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="justify-content-center align-content-center mt-5 row"
+  >
+    <span
+      aria-busy={true}
+      aria-live="polite"
+    >
+      <span
+        className="react-loading-skeleton"
+        style={
+          Object {
+            "--base-color": "#00A9D8",
+            "--highlight-color": "#f8f9f9",
+          }
+        }
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton"
+        style={
+          Object {
+            "--base-color": "#00A9D8",
+            "--highlight-color": "#f8f9f9",
+          }
+        }
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton"
+        style={
+          Object {
+            "--base-color": "#00A9D8",
+            "--highlight-color": "#f8f9f9",
+          }
+        }
+      >
+        ‌
+      </span>
+      <br />
+    </span>
+  </div>
+</div>
+`;

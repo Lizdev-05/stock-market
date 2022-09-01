@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #2b4064;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5rem;
+}
